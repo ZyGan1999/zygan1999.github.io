@@ -64,7 +64,7 @@ Service and Leadership
 * Student Union of Renmin University of China
   *  As an active member of the student union's publicity department, I took part in and led multiple campus initiatives, which included promoting campus photography themes and choosing topics for student union campaigns.
   *  I contributed significantly to the organization, coordination, and documentation of various events, such as the May 4th celebration and Freshman Orientation, among others.
-*  Cyber News Service of Renmin University of China
+* Cyber News Service of Renmin University of China
   *  Cyber News Service is affiliated with the school news center of the student organization, responsible for related activities of design and publicity.
   *  As a news agency member, I participated in or organized many topics and activities, including National Day 70th anniversary-related activities, graduation photography exhibition, etc.
 
