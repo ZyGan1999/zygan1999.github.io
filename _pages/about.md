@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a second year postgraduate student from [School of Information](https://info.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). My research interest includes weakly-supervised learning, contrastive learning, machine learning, and computer vision. I'm currently advised by [Dr.Zhao](http://dblp.uni-trier.de/pers/hd/z/Zhao:Suyun) from [DW&BI Lab](http://info.ruc.edu.cn/jsky/xsky/kytd/jsx/sjckyswznsys/index.htm) in School of Information, Renmin University of China.
+I'm a master student from [School of Information](https://info.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I expect to finish my master degree in June 2024. My research interest includes weakly-supervised learning, contrastive learning, machine learning, and computer vision. I'm currently advised by [Dr.Zhao](http://dblp.uni-trier.de/pers/hd/z/Zhao:Suyun) from [DW&BI Lab](http://info.ruc.edu.cn/jsky/xsky/kytd/jsx/sjckyswznsys/index.htm) in School of Information, Renmin University of China.
 
-Currently, I am looking for a opportunities to pursue PhD in computer vision, machine learning or other artificial intenligence fields.
+Currently, I am looking for opportunities to pursue PhD in computer vision, machine learning or other artificial intenligence fields.
 
 CV
 =====
