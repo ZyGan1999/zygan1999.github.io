@@ -1,7 +1,6 @@
 ---
 title: "Superclass Learning with Representation Enhancement"
 collection: Proceedings
-permalink: /publication/2023-03-SCLRE-CVPR
 excerpt: 'This paper introduced a novel coarse-grained classification situation called superclass learning, and proposed an attention-based framework (SCLRE) to extract superclass-aware representations.'
 date: June, 2023
 venue: 'CVPR'
