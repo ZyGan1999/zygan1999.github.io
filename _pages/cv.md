@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Zeyu Gan's CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,10 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
+Basic Information
+======
+* Name: Zeyu Gan (甘泽宇)
+* Gender: Male
+* Date of Birth: June 12, 1999
+
 Education
 ======
 * B.S. Computer Science, School of Information, Renmin University University, Sep 2017 - Jun 2021
-* M.S. Computer Application Technology, School of Information, Renmin University University, Sep 2021 - Jun 2024(Expected)
+* M.S. Computer Application Technology, School of Information, Renmin University University, Sep 2021 - Jun 2024 (Expected)
 
 Research Experience
 ======
@@ -53,7 +59,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service and Leadership
 ======
 * Student Union of Renmin University of China
   *  As an active member of the student union's publicity department, I took part in and led multiple campus initiatives, which included promoting campus photography themes and choosing topics for student union campaigns.
