@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Zeyu Gan"
-  avatar           : "icon.png"
+  avatar           : "selfie.png"
   bio              : "Renmin Univerisity of China"
   location         : "Beijing, China"
   employer         :
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  #github           : "academicpages"
+  github           : "https://github.com/ZyGan1999"
   google_plus      :
   keybase          :
   instagram        :
