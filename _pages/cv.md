@@ -11,30 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. Computer Science, School of Information, Renmin University University, Sep 2017 - Jun 2021
+* M.S. Computer Application Technology, School of Information, Renmin University University, Sep 2021 - Jun 2024(Expected)
 
-Work experience
+Research Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Superclass Learning with Representation Enhancement
+  * School of Information, Renmin University of China, Dec 2021 - Mar 2023
+  * This project investigates a novel issue in coarse-grained image classification, offering an efficient solution that employs supervised contrastive learning and self-attention mechanisms. Utilizing solely coarse class labels, we managed to enhance the classification accuracy. The associated research paper has been accepted for presentation at the prestigious international computer vision conference, CVPR 2023.
+  * Role: The First Author
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Breast Cancer Image Classification Based on Semi-Supervised Generative Adversarial Networks
+  * School of Information, Renmin University of China, Feb 2021 - Jun 2021
+  * This project was completed as part of my undergraduate thesis. Building upon traditional generative adversarial networks, a positive and negative sample classification function was introduced for the classifier, enabling adversarial breast cancer image classification. This approach allows for direct processing of sample images without focusing on traditional features such as ultrasound image textures.
+  * Role: Author
+
+* WeChat Group Fraud Detection based on Deep Learning
+  * School of Information, Renmin University of China, May 2019 - Jun 2020
+  * This project was honored with a national-level grant from the College Student Innovation Experiment Program in 2019 and concluded with outstanding results in June 2020. The project focused on diverse chat data within WeChat group conversations, employing ensemble learning techniques to classify group chat categories and achieving an accuracy rate of over 90%.
+  * Role: Member
+
+Honors & Awards
+======
+* Postgraduate Scholarship for 2022 (Second Class), Nov 2022
+* Postgraduate Scholarship for 2021 (Second Class), Nov 2021
+* Outstanding Communist Youth League Member, June 2021
+* College Student Innovation Experiment Program-National Project, May 2019
+* ACM Individual Competition of School of Information, Renmin University of China (Third Class), March 2018
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Deep Learning
+* Python
+  * DL frameworks (e.g. pyTorch)
+  * Data Analysis
+* C/C++
 
 Publications
 ======
@@ -42,18 +53,12 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Student Union of Renmin University of China
+  *  As an active member of the student union's publicity department, I took part in and led multiple campus initiatives, which included promoting campus photography themes and choosing topics for student union campaigns.
+  *  I contributed significantly to the organization, coordination, and documentation of various events, such as the May 4th celebration and Freshman Orientation, among others.
+*  Cyber News Service of Renmin University of China
+  *  Cyber News Service is affiliated with the school news center of the student organization, responsible for related activities of design and publicity.
+  *  As a news agency member, I participated in or organized many topics and activities, including National Day 70th anniversary-related activities, graduation photography exhibition, etc.
+
