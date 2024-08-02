@@ -23,10 +23,12 @@ Education
 
 Research Experience
 ======
-* Superclass Learning with Representation Enhancement
-  * School of Information, Renmin University of China, Dec 2021 - Mar 2023
-  * This project investigates a novel issue in coarse-grained image classification, offering an efficient solution that employs supervised contrastive learning and self-attention mechanisms. Utilizing solely coarse class labels, we managed to enhance the classification accuracy. The associated research paper has been accepted for presentation at the prestigious international computer vision conference, CVPR 2023.
-  * Role: The First Author
+* Gaoling School of Artificial Intelligence
+  * Renmin University of China, Sep 2024 - now
+
+* DW&BI ML Group in School of Information
+  * Renmin University of China, Sep 2021 - June 2024
+  * As a member of the laboratory, my research interests mainly include machine learning, computer vision, and weakly supervised learning. During this period, I completed several scientific research tasks and published a paper in CVPR 2023 as the first author.
 
 * Breast Cancer Image Classification Based on Semi-Supervised Generative Adversarial Networks
   * School of Information, Renmin University of China, Feb 2021 - Jun 2021
