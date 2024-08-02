@@ -7,15 +7,13 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm a master student from [School of Information](https://info.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I expect to finish my master degree in June 2024. My research interest includes weakly-supervised learning, contrastive learning, machine learning, and computer vision. I'm currently advised by [Dr.Zhao](http://dblp.uni-trier.de/pers/hd/z/Zhao:Suyun) from [DW&BI Lab](http://info.ruc.edu.cn/jsky/xsky/kytd/jsx/sjckyswznsys/index.htm) in School of Information, Renmin University of China.
+I'm a PhD student from [GSAI](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/), advised by [Professor Liu](https://gsai.ruc.edu.cn/liuyong). 
 
-Currently, I am looking for opportunities to pursue PhD in computer vision, machine learning or other artificial intenligence fields.
+I received my bachelor's and master's degrees from [School of Information](https://info.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/) when I was advised by [Dr.Zhao](http://dblp.uni-trier.de/pers/hd/z/Zhao:Suyun) from [DW&BI Lab](http://info.ruc.edu.cn/jsky/xsky/kytd/jsx/sjckyswznsys/index.htm).
 
-CV
-=====
-For more details, you can find my CV here: [Zeyu Gan's CV](../assets/ZeyuGan.pdf).
+My research interests include LLM alignment, machine learning theory, etc.
 
-You can also click the button "CV" on the top of the website.
+For more details, you can click the button "CV" at the top of the website.
 
 Contact Information
 =====
