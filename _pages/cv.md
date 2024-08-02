@@ -19,7 +19,7 @@ Education
 ======
 * B.S. Computer Science, School of Information, Renmin University of China, Sep 2017 - June 2021
 * M.S. Computer Application Technology, School of Information, Renmin University of China, Sep 2021 - June 2024
-* PhD Artificial Intelligence, Gaoling School of Artificial Intelligence, Renmin University of China Sep 2024 - June 2028 (Expected)
+* PhD Artificial Intelligence, Gaoling School of Artificial Intelligence, Renmin University of China, Sep 2024 - June 2028 (Expected)
 
 Research Experience
 ======
