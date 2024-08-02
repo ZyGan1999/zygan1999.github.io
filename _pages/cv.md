@@ -25,34 +25,33 @@ Research Experience
 ======
 * Gaoling School of Artificial Intelligence
   * Renmin University of China, Sep 2024 - now
+  * As a PhD student, my research interests mainly include LLM alignment and machine learning theory. During this period, I participate in plenty of research activities and focus on realistic problems toward better AI modeling.
 
 * DW&BI ML Group in School of Information
   * Renmin University of China, Sep 2021 - June 2024
   * As a member of the laboratory, my research interests mainly include machine learning, computer vision, and weakly supervised learning. During this period, I completed several scientific research tasks and published a paper in CVPR 2023 as the first author.
 
-* Breast Cancer Image Classification Based on Semi-Supervised Generative Adversarial Networks
-  * School of Information, Renmin University of China, Feb 2021 - Jun 2021
-  * This project was completed as part of my undergraduate thesis. Building upon traditional generative adversarial networks, a positive and negative sample classification function was introduced for the classifier, enabling adversarial breast cancer image classification. This approach allows for direct processing of sample images without focusing on traditional features such as ultrasound image textures.
-  * Role: Author
-
-* WeChat Group Fraud Detection based on Deep Learning
-  * School of Information, Renmin University of China, May 2019 - Jun 2020
-  * This project was honored with a national-level grant from the College Student Innovation Experiment Program in 2019 and concluded with outstanding results in June 2020. The project focused on diverse chat data within WeChat group conversations, employing ensemble learning techniques to classify group chat categories and achieving an accuracy rate of over 90%.
-  * Role: Member
+Working Experience
+======
+* Machine Learning Platform Department
+  * TEG, Tencent, Aug 2023 - Nov 2023
+  * As an intern, I participated in the development of the WeChat Moments advertising recommendation algorithms. I researched the deployment in big batch scenarios and helped design suitable optimizers. 
 
 Honors & Awards
 ======
-* Postgraduate Scholarship for 2022 (Second Class), Nov 2022
-* Postgraduate Scholarship for 2021 (Second Class), Nov 2021
+* Outstanding Master Theis (10%), June, 2024
+* Outstanding Graduates, April, 2024
+* Outstanding Postgraduate Scholarship (First Class, 10%), Nov 2023
+* Postgraduate Scholarship (First Class), Nov 2023
 * Outstanding Communist Youth League Member, June 2021
-* College Student Innovation Experiment Program-National Project, May 2019
-* ACM Individual Competition of School of Information, Renmin University of China (Third Class), March 2018
+* College Student Innovation Experiment Program (National Project), May 2019
+
 
 Skills
 ======
 * Deep Learning
 * Python
-  * DL frameworks (e.g. pyTorch)
+  * DL frameworks (e.g. PyTorch)
   * Data Analysis
 * C/C++
 
