@@ -7,8 +7,3 @@ venue: 'CVPR'
 paperurl: 'http://zygan1999.github.io/files/SCLRE.pdf'
 citation: 'Zeyu Gan, Suyun Zhao, Jinlong Kang, Liyuan Shang, Hong Chen, Cuiping Li. Superclass Learning With Representation Enhancement. 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 24060-24069, 2023.'
 ---
-This paper introduced a novel coarse-grained classification situation called superclass learning, and proposed an attention-based framework (SCLRE) to extract superclass-aware representations.
-
-[Download paper here](http://zygan1999.github.io/files/SCLRE.pdf)
-
-Recommended citation: **Zeyu Gan**, Suyun Zhao, Jinlong Kang, Liyuan Shang, Hong Chen, Cuiping Li. Superclass Learning With Representation Enhancement. 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 24060-24069, 2023.
