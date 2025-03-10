@@ -29,7 +29,7 @@ Research Experience
 
 * DW&BI ML Group in School of Information
   * Renmin University of China, Sep 2021 - June 2024
-  * As a member of the laboratory, my research interests mainly include machine learning, computer vision, and weakly supervised learning. During this period, I completed several scientific research tasks and published a paper in CVPR 2023 as the first author.
+  * As a member of the laboratory, my research interests mainly include machine learning, computer vision, and weakly supervised learning. During this period, I completed numbers of scientific research tasks.
 
 Working Experience
 ======
@@ -40,20 +40,9 @@ Working Experience
 Honors & Awards
 ======
 * Outstanding Master Theis (10%), June, 2024
-* Outstanding Graduates, April, 2024
-* Outstanding Postgraduate Scholarship (First Class, 10%), Nov 2023
-* Postgraduate Scholarship (First Class), Nov 2023
-* Outstanding Communist Youth League Member, June 2021
+* Outstanding Graduates (10%), April, 2024
+* Outstanding Postgraduate Scholarship (First Class, 10%), Nov, 2023
 * College Student Innovation Experiment Program (National Project), May 2019
-
-
-Skills
-======
-* Deep Learning
-* Python
-  * DL frameworks (e.g. PyTorch)
-  * Data Analysis
-* C/C++
 
 Publications
 ======
