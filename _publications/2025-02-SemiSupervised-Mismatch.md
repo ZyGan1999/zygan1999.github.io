@@ -1,7 +1,7 @@
 ---
 title: "Towards a Theoretical Understanding of Semi-Supervised Learning Under Class Distribution Mismatch"
 collection: Journals
-excerpt: 'This paper introduced a novel coarse-grained classification situation called superclass learning, and proposed an attention-based framework (SCLRE) to extract superclass-aware representations.'
+excerpt: 'This paper theoretically analyzes the excess risk between the empirical optimal solution and the population-level optimal solution for semi-supervised learning under class distribution mismatch.'
 date: February, 2025
 venue: 'TPAMI'
 paperurl: 'https://dl.acm.org/doi/10.1109/TPAMI.2025.3545930'
