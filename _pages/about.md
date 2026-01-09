@@ -17,11 +17,5 @@ You can find more information about me in my [CV](https://zygan1999.github.io/cv
 
 Contact Information
 =====
-If you are interested in my works, please feel free to contact me for discussions by: 
-[Email](mailto:zygan@ruc.edu.cn) or 
-[WeChat](../assets/9581685951582_.pic.jpg)
-
-**Email**: zygan@ruc.edu.cn
-
-**WeChat**: ZyGan1999
+If you are interested in my works, please feel free to contact me for discussions by [Email](mailto:zygan@ruc.edu.cn) 
 
