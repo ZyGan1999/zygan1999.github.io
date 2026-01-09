@@ -17,7 +17,7 @@ You can find more information about me in my [CV](https://zygan1999.github.io/cv
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
