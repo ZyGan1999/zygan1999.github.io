@@ -15,7 +15,13 @@ My current research interests include the mechanism of LLM post-training.
 
 You can find more information about me in my [CV](https://zygan1999.github.io/cv/). 
 
+Publications
+======
+  <ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Contact Information
 =====
-If you are interested in my works, please feel free to contact me for discussions by [Email](mailto:zygan@ruc.edu.cn) 
+If you are interested in my works, please feel free to contact me for discussions by [Email](mailto:zygan@ruc.edu.cn).
 
