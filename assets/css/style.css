@@ -244,7 +244,7 @@ body.ac-cursor, body.ac-cursor * { cursor:url('../img/cursor-icon.png') 4 0, aut
   border:2px solid transparent; transition:all .25s var(--ease);
 }
 .pub-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-base); border-color:#ece2cf; }
-.pub-card.has-fig { display:flex; gap:20px; align-items:flex-start; }
+.pub-card.has-fig { display:flex; gap:20px; align-items:center; }
 .pub-card__body { flex:1; min-width:0; }
 .pub-card__fig {
   flex:0 0 240px; display:block; border-radius:14px; overflow:hidden;
