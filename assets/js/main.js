@@ -128,33 +128,6 @@
     '<a class="btn btn-default" href="' + PROFILE.scholar + '" target="_blank" rel="noopener">' + ICON.scholar + ' Google Scholar</a>' +
     '<a class="btn btn-default" href="' + gh + '" target="_blank" rel="noopener">' + ICON.github + ' GitHub</a>';
 
-  /* --------------------------- Visitor map ------------------------------- */
-  (function () {
-    const host = document.getElementById('visitorMap');
-    if (!host) return;
-    const embed = (typeof VISITOR_MAP_EMBED === 'string') ? VISITOR_MAP_EMBED.trim() : '';
-    if (embed) {
-      host.innerHTML = embed;
-      // innerHTML does not execute <script> — recreate them so widgets load.
-      host.querySelectorAll('script').forEach(old => {
-        const s = document.createElement('script');
-        Array.from(old.attributes).forEach(a => s.setAttribute(a.name, a.value));
-        s.text = old.textContent || '';
-        old.replaceWith(s);
-      });
-    } else {
-      host.innerHTML =
-        '<div class="visitor-placeholder">' +
-        '<div class="globe">🌍</div>' +
-        '<p>A live visitor map will appear here.</p>' +
-        '<p class="hint">To activate it, generate a free embed from ' +
-        '<a href="https://clustrmaps.com/" target="_blank" rel="noopener">ClustrMaps</a> or ' +
-        '<a href="https://www.revolvermaps.com/" target="_blank" rel="noopener">RevolverMaps</a> ' +
-        'and paste it into <code>VISITOR_MAP_EMBED</code> in <code>assets/js/data.js</code>.</p>' +
-        '</div>';
-    }
-  })();
-
   /* ------------------------------ Footer --------------------------------- */
   const year = new Date().getFullYear();
   $('#footerCopy').innerHTML = '© ' + year + ' ' + PROFILE.name + ' (' + PROFILE.nameZh + ') · ' + PROFILE.location;
