@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Zeyu Gan — CV</title>
+<style>
+  @page { size: A4; margin: 8mm 13mm; }
+  * { box-sizing: border-box; }
+  :root {
+    --ink: #262626;
+    --muted: #5f5f5f;
+    --accent: #117a6f;       /* deep teal (prints well) */
+    --rule: #d8d8d8;
+  }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: Georgia, "Times New Roman", serif;
+    color: var(--ink); font-size: 9.5pt; line-height: 1.3;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  a { color: var(--accent); text-decoration: none; }
+
+  /* ---------------- Header ---------------- */
+  .header { display: flex; align-items: flex-start; gap: 18px; }
+  .header .info { flex: 1; min-width: 0; }
+  .name {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 23pt; font-weight: 700; letter-spacing: .3px; color: var(--ink);
+    margin: 0 0 2px;
+  }
+  .name .zh { font-size: 15pt; font-weight: 600; color: var(--muted); margin-left: 6px; }
+  .title { font-size: 11pt; color: var(--accent); font-weight: 700; margin: 2px 0 6px;
+    font-family: "Helvetica Neue", Arial, sans-serif; }
+  .affil { font-size: 10pt; color: var(--muted); margin: 0 0 8px; }
+  .contact {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 9pt; color: var(--muted); line-height: 1.6;
+  }
+  .contact span { white-space: nowrap; }
+  .contact .sep { color: var(--rule); margin: 0 7px; }
+  .photo {
+    width: 105px; height: 142px; object-fit: cover;
+    border: 1px solid var(--rule); border-radius: 3px; flex-shrink: 0;
+  }
+
+  /* ---------------- Sections ---------------- */
+  section { margin-top: 8px; }
+  h2 {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 10.5pt; font-weight: 700; text-transform: uppercase; letter-spacing: 1.2px;
+    color: var(--accent); margin: 0 0 6px; padding-bottom: 3px;
+    border-bottom: 1.5px solid var(--accent);
+  }
+
+  .entry { margin-bottom: 6px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry .row { display: flex; justify-content: space-between; gap: 12px; }
+  .entry .lead { font-weight: 700; color: var(--ink); }
+  .entry .when { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 9pt;
+    color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+  .entry .sub { color: var(--muted); font-size: 9.8pt; }
+  .entry .desc { font-size: 9.8pt; margin-top: 2px; }
+
+  p.lede { margin: 0; }
+
+  /* Publications */
+  ol.pubs { margin: 0; padding-left: 0; list-style: none; counter-reset: pub; }
+  ol.pubs li {
+    position: relative; padding-left: 22px; margin-bottom: 4px; font-size: 9.4pt;
+  }
+  ol.pubs li::before {
+    counter-increment: pub; content: "[" counter(pub) "]";
+    position: absolute; left: 0; top: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt;
+    color: var(--accent); font-weight: 700;
+  }
+  ol.pubs .me { font-weight: 700; }
+  ol.pubs .venue { font-style: italic; }
+  ol.pubs .badge {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7.5pt; font-weight: 700;
+    color: var(--accent); border: 1px solid var(--accent); border-radius: 8px;
+    padding: 0 5px; margin-left: 4px; white-space: nowrap;
+  }
+
+  /* tag pills for service / interests */
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill {
+    font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt; font-weight: 700;
+    color: var(--accent); border: 1px solid var(--accent); border-radius: 10px; padding: 1px 9px;
+  }
+
+  ul.tight { margin: 0; padding-left: 16px; }
+  ul.tight li { margin-bottom: 3px; font-size: 9.9pt; }
+  .when-inline { font-family:"Helvetica Neue",Arial,sans-serif; font-size:8.6pt; color:var(--muted); }
+</style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="info">
+      <h1 class="name">Zeyu Gan <span class="zh">甘泽宇</span></h1>
+      <div class="title">Ph.D. Candidate in Artificial Intelligence</div>
+      <div class="affil">Gaoling School of Artificial Intelligence, Renmin University of China</div>
+      <div class="contact">
+        <span>✉ <a href="mailto:zygan@ruc.edu.cn">zygan@ruc.edu.cn</a></span><span class="sep">|</span>
+        <span>🌐 <a href="https://zygan1999.github.io">zygan1999.github.io</a></span><span class="sep">|</span>
+        <span><a href="https://scholar.google.com/citations?user=aoVm7R0AAAAJ">Google Scholar</a></span><span class="sep">|</span>
+        <span><a href="https://github.com/ZyGan1999">github.com/ZyGan1999</a></span>
+        <br/>
+        <span>Beijing, China</span><span class="sep">|</span>
+        <span>Born June 1999</span>
+      </div>
+    </div>
+    <img class="photo" src="photo.jpg" alt="Zeyu Gan" />
+  </header>
+
+  <section>
+    <h2>Research Interests</h2>
+    <p class="lede">Mechanism analysis and theory of Large Language Models (LLMs) — including chain-of-thought
+    reasoning, slow-thinking and policy optimization, synthetic data, LLM alignment, and the
+    theoretical foundations of machine learning.</p>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="row"><span class="lead">Ph.D. in Artificial Intelligence</span><span class="when">Sep 2024 – Jun 2028 (expected)</span></div>
+      <div class="sub">Gaoling School of Artificial Intelligence, Renmin University of China · Advisor: Prof. Yong Liu</div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="lead">M.S. in Computer Application Technology</span><span class="when">Sep 2021 – Jun 2024</span></div>
+      <div class="sub">School of Information, Renmin University of China · Advisor: Prof. Suyun Zhao</div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="lead">B.S. in Computer Science</span><span class="when">Sep 2017 – Jun 2021</span></div>
+      <div class="sub">School of Information, Renmin University of China</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <ol class="pubs">
+      <li><span class="me">Zeyu Gan</span>, Huayi Tang, Yong Liu.
+        <a href="https://arxiv.org/abs/2606.05828">Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents</a>.
+        <span class="venue">arXiv:2606.05828</span>, 2026.</li>
+
+      <li><span class="me">Zeyu Gan</span>, Ruifeng Ren, Wei Yao, Xiaolin Hu, Gengze Xu, Chen Qian, Huayi Tang, Zixuan Gong, Xinhao Yao, Pengwei Tang, Zhenxing Dou, Yong Liu.
+        <a href="https://arxiv.org/abs/2601.02907">Beyond the Black Box: A Survey on the Theory and Mechanism of Large Language Models</a>.
+        <span class="venue">arXiv:2601.02907</span>, 2026.</li>
+
+      <li>Guoqing Wang, Sunhao Dai, Guangze Ye, <span class="me">Zeyu Gan</span>, Wei Yao, Yong Deng, Xiaofeng Wu, Zhenzhe Ying.
+        <a href="https://arxiv.org/abs/2510.14967">Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn LLM Agents</a>.
+        <span class="venue">arXiv:2510.14967</span>, 2025.</li>
+
+      <li><span class="me">Zeyu Gan</span>, Hao Yi, Yong Liu.
+        <a href="https://arxiv.org/abs/2509.04027">Why Does Reasoning Length Converge? Unveiling the Underfitting-Overfitting Trade-off in Chain-of-Thought</a>.
+        <span class="venue">arXiv:2509.04027</span>, 2025.</li>
+
+      <li><span class="me">Zeyu Gan</span>, Yun Liao, Yong Liu.
+        <a href="https://proceedings.mlr.press/v267/gan25a.html">Rethinking External Slow-Thinking: From Snowball Errors to Probability of Correct Reasoning</a>.
+        <span class="venue">International Conference on Machine Learning (ICML)</span>, 2025. <span class="badge">ICML 2025</span></li>
+
+      <li><span class="me">Zeyu Gan</span>, Yong Liu.
+        <a href="https://arxiv.org/abs/2410.01720">Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective</a>.
+        <span class="venue">International Conference on Learning Representations (ICLR)</span>, 2025. <span class="badge">ICLR 2025</span></li>
+
+      <li>Pan Du, Suyun Zhao, Puhui Tan, Zisen Sheng, <span class="me">Zeyu Gan</span>, Hong Chen, Cuiping Li.
+        <a href="https://dl.acm.org/doi/10.1109/TPAMI.2025.3545930">Towards a Theoretical Understanding of Semi-Supervised Learning Under Class Distribution Mismatch</a>.
+        <span class="venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</span>, 2025. <span class="badge">TPAMI</span></li>
+
+      <li><span class="me">Zeyu Gan</span>, Suyun Zhao, Jinlong Kang, Liyuan Shang, Hong Chen, Cuiping Li.
+        <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Kang_Superclass_Learning_With_Representation_Enhancement_CVPR_2023_paper.html">Superclass Learning with Representation Enhancement</a>.
+        <span class="venue">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</span>, 2023. <span class="badge">CVPR 2023</span></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Honors &amp; Awards</h2>
+    <ul class="tight">
+      <li>Outstanding Master's Thesis (top 10%), Renmin University of China <span class="when-inline">— 2024</span></li>
+      <li>Outstanding Graduate (top 10%), Renmin University of China <span class="when-inline">— 2024</span></li>
+      <li>Outstanding Postgraduate Scholarship (First Class, top 10%) <span class="when-inline">— 2023</span></li>
+      <li>College Student Innovation Experiment Program (National Project) <span class="when-inline">— 2019</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="entry">
+      <div class="row"><span class="lead">Research Assistant, Gaoling School of AI</span><span class="when">Sep 2024 – Present</span></div>
+      <div class="desc">Renmin University of China. Research on the mechanism and theory of LLMs, reasoning, and alignment.</div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="lead">Research Assistant, DW&amp;BI Machine Learning Group</span><span class="when">Sep 2021 – Jun 2024</span></div>
+      <div class="desc">School of Information, Renmin University of China. Machine learning, computer vision, and weakly-supervised learning.</div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="lead">Research Intern, Machine Learning Platform Dept. (TEG)</span><span class="when">Aug 2023 – Nov 2023</span></div>
+      <div class="desc">Tencent. Worked on advertising recommendation algorithms; studied large-batch deployment and optimizer design.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Academic Service</h2>
+    <div class="entry">
+      <div class="row"><span class="lead">Conference Reviewer</span></div>
+      <div class="pills" style="margin-top:5px">
+        <span class="pill">ICLR</span><span class="pill">ICML</span><span class="pill">CVPR</span>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
