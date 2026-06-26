@@ -137,7 +137,7 @@ const PUBLICATIONS = [
  * --------------------------------------------------------------------------- */
 const NEWS = [
   { date: 'Jun 2026', text: 'New preprint <em>"Local Harness"</em> on personal-agent architectures is out on arXiv.' },
-  { date: 'Jan 2026', text: 'Released our survey <em>"Beyond the Black Box: Theory and Mechanism of LLMs"</em>.' },
+  { date: 'Jan 2026', text: 'Released our survey <em>"Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs"</em>.' },
   { date: 'Oct 2025', text: 'Preprint <em>IGPO</em> on multi-turn LLM agents is available.' },
   { date: 'Sep 2025', text: 'Preprint <em>CoT-Space</em> on chain-of-thought reasoning is available.' },
   { date: 'May 2025', text: 'Our paper on external slow-thinking was accepted to <strong>ICML 2025</strong>.' },
@@ -155,3 +155,22 @@ const EDUCATION = [
   { period: '2017 — 2021', degree: 'B.S. in Computer Science',
     org: 'School of Information, Renmin University of China' },
 ];
+
+/* -----------------------------------------------------------------------------
+ *  VISITOR MAP  — "where my visitors come from" widget at the bottom.
+ *
+ *  These widgets are third-party services that tie to YOUR site URL, so you
+ *  need to generate your own embed code once (30 seconds, free):
+ *
+ *    • ClustrMaps  → https://clustrmaps.com/  (enter your site URL, copy the
+ *      <script ... id="clstr_globe" ...> snippet)
+ *    • RevolverMaps → https://www.revolvermaps.com/  (pick a globe, copy code)
+ *    • Flag Counter → https://flagcounter.com/
+ *
+ *  Paste the FULL embed snippet between the backticks below. Until you do,
+ *  the section shows a friendly placeholder. <script> tags are executed.
+ *
+ *  Example (replace with YOUR generated code):
+ *    const VISITOR_MAP_EMBED = `<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YOUR_ID"></script>`;
+ * --------------------------------------------------------------------------- */
+const VISITOR_MAP_EMBED = ``;
