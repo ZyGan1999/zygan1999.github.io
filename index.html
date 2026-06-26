@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zeyu Gan · HomePage</title>
+  <meta name="description" content="Zeyu Gan (甘泽宇) — Ph.D. candidate at Gaoling School of AI, Renmin University of China. Research on the mechanism and theory of Large Language Models." />
+  <link rel="icon" href="assets/img/icons/icon-leaf.png" />
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/nunito-latin-700-normal.woff2" crossorigin />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="ac-cursor">
+  <div class="layout">
+
+    <!-- ============================ Sidebar ============================ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar__brand">
+        <img class="leaf" src="assets/img/icons/icon-leaf.png" alt="" />
+        <span id="brandName">Zeyu Gan</span>
+      </div>
+
+      <div class="profile">
+        <img class="profile__avatar" id="sideAvatar" src="assets/img/avatar.jpg" alt="Zeyu Gan" />
+        <div class="profile__name"><span id="sideName">Zeyu Gan</span><span class="zh" id="sideNameZh">甘泽宇</span></div>
+        <div class="profile__role" id="sideRole">Ph.D. Candidate</div>
+        <div class="profile__org"  id="sideOrg">GSAI · Renmin University of China</div>
+      </div>
+
+      <nav class="nav">
+        <a href="#hero" class="active"><span class="ico">🏝️</span> Home</a>
+        <a href="#about"><span class="ico">🌱</span> About</a>
+        <a href="#research"><span class="ico">🔬</span> Research</a>
+        <a href="#publications"><span class="ico">📚</span> Publications</a>
+        <a href="#news"><span class="ico">📮</span> News</a>
+        <a href="#cv"><span class="ico">🎓</span> CV</a>
+        <a href="#contact"><span class="ico">✉️</span> Contact</a>
+      </nav>
+
+      <div class="socials" id="sideSocials"><!-- filled by JS --></div>
+    </aside>
+
+    <!-- ============================== Main ============================= -->
+    <div class="main">
+      <!-- Mobile top bar -->
+      <header class="topbar">
+        <button class="topbar__menu" id="menuBtn" aria-label="Open menu">☰</button>
+        <span class="topbar__name">Zeyu Gan<span class="zh">甘泽宇</span></span>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero" id="hero">
+        <img class="hero__avatar" id="heroAvatar" src="assets/img/avatar.jpg" alt="Zeyu Gan" />
+        <h1 class="hero__title">Hi, I'm <span id="heroName">Zeyu Gan</span> <span class="zh" id="heroNameZh">甘泽宇</span> 👋</h1>
+        <div class="hero__role" id="heroRole">Ph.D. Candidate · GSAI, Renmin University of China</div>
+        <p class="hero__tagline" id="heroTagline"></p>
+        <div class="clock" id="clock" aria-hidden="true">
+          <div class="clock__date">
+            <span class="clock__weekday" id="clkWeekday">SUN</span>
+            <span class="clock__monthday" id="clkMonthday">Jan 1</span>
+          </div>
+          <div class="clock__time" id="clkTime">--:--</div>
+        </div>
+        <div class="hero__actions" id="heroActions"><!-- filled by JS --></div>
+      </section>
+
+      <!-- About -->
+      <section class="section reveal" id="about">
+        <div class="section__head"><span class="ribbon green">About Me</span></div>
+        <div class="card about-card" id="aboutBody"></div>
+      </section>
+
+      <!-- Research -->
+      <section class="section reveal" id="research">
+        <div class="section__head"><span class="ribbon teal">Research Interests</span></div>
+        <div class="research-grid" id="researchGrid"></div>
+      </section>
+
+      <!-- Publications -->
+      <section class="section reveal" id="publications">
+        <div class="section__head"><span class="ribbon blue">Publications</span></div>
+        <div class="pub-filter" id="pubFilter"></div>
+        <div class="pub-list" id="pubList"></div>
+      </section>
+
+      <!-- News -->
+      <section class="section reveal" id="news">
+        <div class="section__head"><span class="ribbon yellow">News</span></div>
+        <div class="card"><ul class="timeline" id="newsList"></ul></div>
+      </section>
+
+      <!-- CV / Education -->
+      <section class="section reveal" id="cv">
+        <div class="section__head"><span class="ribbon purple">Education</span></div>
+        <div class="card"><ul class="timeline edu" id="eduList"></ul></div>
+        <div style="text-align:center;margin-top:24px" id="cvDownload"></div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section reveal" id="contact">
+        <div class="section__head"><span class="ribbon pink">Get in Touch</span></div>
+        <div class="card contact-card">
+          <p id="contactText"></p>
+          <div class="contact-actions" id="contactActions"></div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__wave" aria-hidden="true"></div>
+        <div class="footer__bar">
+          <div id="footerCopy"></div>
+          <div>Built with 🍃 in Animal-Crossing style · UI inspired by
+            <a href="https://github.com/guokaigdg/animal-island-ui" target="_blank" rel="noopener">animal-island-ui</a>
+            (CC BY-NC 4.0)</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <div class="scrim" id="scrim"></div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
