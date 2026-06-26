@@ -86,15 +86,22 @@
     pubList.innerHTML = items.map(p => {
       const isArxiv = /arxiv|abs\//i.test(p.url);
       const linkLabel = isArxiv ? 'arXiv' : 'Paper';
-      return '<article class="pub-card">' +
-        '<div class="pub-card__top"><span class="pub-tag ' + p.type + '">' + p.venue + '</span>' +
-          (p.award ? '<span class="pub-tag conference">' + p.award + '</span>' : '') +
-        '</div>' +
-        '<h3 class="pub-card__title">' + p.title + '</h3>' +
-        '<p class="pub-card__authors">' + boldName(p.authors, PROFILE.name) + '</p>' +
-        '<p class="pub-card__excerpt">' + p.excerpt + '</p>' +
-        '<div class="pub-card__links">' +
-          '<a class="btn btn-default btn-sm" href="' + p.url + '" target="_blank" rel="noopener">' + ICON.paper + ' ' + linkLabel + '</a>' +
+      const fig = p.fig
+        ? '<a class="pub-card__fig" href="' + p.url + '" target="_blank" rel="noopener" title="View paper">' +
+            '<img src="' + p.fig + '" loading="lazy" alt="Figure 1 of ' + p.title.replace(/"/g, '') + '"></a>'
+        : '';
+      return '<article class="pub-card' + (p.fig ? ' has-fig' : '') + '">' +
+        fig +
+        '<div class="pub-card__body">' +
+          '<div class="pub-card__top"><span class="pub-tag ' + p.type + '">' + p.venue + '</span>' +
+            (p.award ? '<span class="pub-tag conference">' + p.award + '</span>' : '') +
+          '</div>' +
+          '<h3 class="pub-card__title">' + p.title + '</h3>' +
+          '<p class="pub-card__authors">' + boldName(p.authors, PROFILE.name) + '</p>' +
+          '<p class="pub-card__excerpt">' + p.excerpt + '</p>' +
+          '<div class="pub-card__links">' +
+            '<a class="btn btn-default btn-sm" href="' + p.url + '" target="_blank" rel="noopener">' + ICON.paper + ' ' + linkLabel + '</a>' +
+          '</div>' +
         '</div></article>';
     }).join('');
   }

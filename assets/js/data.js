@@ -65,6 +65,7 @@ const PUBLICATIONS = [
     year:    2026,
     excerpt: 'A decoupled "Local Harness" architecture for personal agents that isolates lightweight statistical preference learning from remote LLM semantic parsing.',
     url:     'https://arxiv.org/abs/2606.05828',
+    fig:     'assets/img/pubs/local-harness.png',
   },
   {
     title:   'Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs',
@@ -74,6 +75,7 @@ const PUBLICATIONS = [
     year:    2026,
     excerpt: 'A survey offering a structured roadmap for moving LLM development from engineering heuristics toward a principled scientific discipline.',
     url:     'https://arxiv.org/abs/2601.02907',
+    fig:     'assets/img/pubs/survey.png',
   },
   {
     title:   'Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn LLM Agents',
@@ -83,6 +85,7 @@ const PUBLICATIONS = [
     year:    2026,
     excerpt: 'IGPO: a simple yet effective RL framework giving dense, intrinsic supervision for multi-turn agent training.',
     url:     'https://arxiv.org/abs/2510.14967',
+    fig:     'assets/img/pubs/igpo.png',
   },
   {
     title:   'Why Does Reasoning Length Converge? Unveiling the Underfitting-Overfitting Trade-off in Chain-of-Thought',
@@ -92,6 +95,7 @@ const PUBLICATIONS = [
     year:    2025,
     excerpt: 'CoT-Space recasts LLM reasoning as continuous optimization, giving a coherent explanation for phenomena like overthinking.',
     url:     'https://arxiv.org/abs/2509.04027',
+    fig:     'assets/img/pubs/cotspace.png',
   },
   {
     title:   'Rethinking External Slow-Thinking: From Snowball Errors to Probability of Correct Reasoning',
@@ -101,6 +105,7 @@ const PUBLICATIONS = [
     year:    2025,
     excerpt: 'A theoretical analysis of external slow-thinking, linking snowball errors to reasoning accuracy and interpretability.',
     url:     'https://proceedings.mlr.press/v267/gan25a.html',
+    fig:     'assets/img/pubs/slowthinking.png',
   },
   {
     title:   'Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective',
@@ -110,6 +115,7 @@ const PUBLICATIONS = [
     year:    2025,
     excerpt: 'Explores the role of synthetic data in LLM post-training through a novel reverse-bottleneck perspective.',
     url:     'https://arxiv.org/abs/2410.01720',
+    fig:     'assets/img/pubs/synthetic.png',
   },
   {
     title:   'Towards a Theoretical Understanding of Semi-Supervised Learning Under Class Distribution Mismatch',
@@ -119,6 +125,7 @@ const PUBLICATIONS = [
     year:    2025,
     excerpt: 'Analyzes the excess risk between empirical and population-level optima for semi-supervised learning under class distribution mismatch.',
     url:     'https://dl.acm.org/doi/10.1109/TPAMI.2025.3545930',
+    fig:     'assets/img/pubs/semisup.png',
   },
   {
     title:   'Superclass Learning with Representation Enhancement',
@@ -128,6 +135,7 @@ const PUBLICATIONS = [
     year:    2023,
     excerpt: 'Introduces superclass learning and SCLRE, an attention-based framework for extracting superclass-aware representations.',
     url:     'https://openaccess.thecvf.com/content/CVPR2023/html/Kang_Superclass_Learning_With_Representation_Enhancement_CVPR_2023_paper.html',
+    fig:     'assets/img/pubs/sclre.png',
   },
 ];
 

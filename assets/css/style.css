@@ -244,6 +244,19 @@ body.ac-cursor, body.ac-cursor * { cursor:url('../img/cursor-icon.png') 4 0, aut
   border:2px solid transparent; transition:all .25s var(--ease);
 }
 .pub-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-base); border-color:#ece2cf; }
+.pub-card.has-fig { display:flex; gap:20px; align-items:flex-start; }
+.pub-card__body { flex:1; min-width:0; }
+.pub-card__fig {
+  flex:0 0 240px; display:block; border-radius:14px; overflow:hidden;
+  border:1px solid var(--border); background:#fff; line-height:0;
+  box-shadow:var(--shadow-sm); transition:transform .25s var(--ease);
+}
+.pub-card__fig img { width:100%; height:auto; display:block; }
+.pub-card__fig:hover { transform:scale(1.02); }
+@media (max-width:680px) {
+  .pub-card.has-fig { flex-direction:column; }
+  .pub-card__fig { flex-basis:auto; width:100%; }
+}
 .pub-card__top { display:flex; align-items:center; gap:10px; margin-bottom:8px; flex-wrap:wrap; }
 .pub-tag {
   flex-shrink:0; padding:3px 12px; border-radius:var(--radius-pill);
