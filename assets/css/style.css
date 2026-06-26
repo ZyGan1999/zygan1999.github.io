@@ -310,7 +310,7 @@ body.ac-cursor, body.ac-cursor * { cursor:url('../img/cursor-icon.png') 4 0, aut
 
 /* -------------------------------- Footer --------------------------------- */
 .footer { margin-top:40px; }
-.footer__wave { width:100%; height:90px; background:url('../img/footer-sea.svg') center/cover no-repeat; }
+.footer__wave { width:100%; aspect-ratio:1440 / 186; background:url('../img/footer-sea.svg') bottom center / 100% 100% no-repeat; }
 .footer__bar { background:var(--bg-secondary); text-align:center; padding:20px 16px 28px;
   font-size:12.5px; color:var(--text-muted); line-height:1.7; }
 .footer__bar a { color:var(--text-body); font-weight:700; }
