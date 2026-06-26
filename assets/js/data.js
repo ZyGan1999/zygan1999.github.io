@@ -67,7 +67,7 @@ const PUBLICATIONS = [
     url:     'https://arxiv.org/abs/2606.05828',
   },
   {
-    title:   'Beyond the Black Box: Theory and Mechanism of Large Language Models',
+    title:   'Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs',
     authors: 'Zeyu Gan, Ruifeng Ren, Wei Yao, Xiaolin Hu, Gengze Xu, Chen Qian, Huayi Tang, Zixuan Gong, Xinhao Yao, Pengwei Tang, Zhenxing Dou, Yong Liu',
     venue:   'arXiv 2026',
     type:    'preprint',
@@ -100,7 +100,7 @@ const PUBLICATIONS = [
     type:    'conference',
     year:    2025,
     excerpt: 'A theoretical analysis of external slow-thinking, linking snowball errors to reasoning accuracy and interpretability.',
-    url:     'https://arxiv.org/abs/2501.15602',
+    url:     'https://proceedings.mlr.press/v267/gan25a.html',
   },
   {
     title:   'Towards a Theoretical Understanding of Synthetic Data in LLM Post-Training: A Reverse-Bottleneck Perspective',
