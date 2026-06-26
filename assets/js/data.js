@@ -155,3 +155,11 @@ const EDUCATION = [
   { period: '2017 — 2021', degree: 'B.S. in Computer Science',
     org: 'School of Information, Renmin University of China' },
 ];
+
+/* -----------------------------------------------------------------------------
+ *  SERVICE  — academic / professional service.
+ *  Each entry: a role and the venues it applies to (shown as colored pills).
+ * --------------------------------------------------------------------------- */
+const SERVICE = [
+  { role: 'Conference Reviewer', venues: ['ICLR', 'ICML', 'CVPR'] },
+];

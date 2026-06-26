@@ -112,6 +112,17 @@
   $('#newsList').innerHTML = NEWS.map(n =>
     '<li><span class="date">' + n.date + '</span><div class="body">' + n.text + '</div></li>').join('');
 
+  /* ------------------------------ Service -------------------------------- */
+  if (typeof SERVICE !== 'undefined' && Array.isArray(SERVICE)) {
+    $('#serviceBody').innerHTML = SERVICE.map(s =>
+      '<div class="service-row">' +
+        '<span class="service-role">' + s.role + '</span>' +
+        '<div class="service-tags">' +
+          s.venues.map(v => '<span class="service-tag">' + v + '</span>').join('') +
+        '</div>' +
+      '</div>').join('');
+  }
+
   /* ---------------------------- Education -------------------------------- */
   $('#eduList').innerHTML = EDUCATION.map(e =>
     '<li><span class="date">' + e.period + '</span>' +

@@ -274,6 +274,19 @@ body.ac-cursor, body.ac-cursor * { cursor:url('../img/cursor-icon.png') 4 0, aut
 .edu .degree { font-weight:800; color:var(--text); font-size:15px; }
 .edu .org { font-size:13.5px; color:var(--text-muted); }
 
+/* ------------------------------- Service --------------------------------- */
+.service-row { display:flex; align-items:center; flex-wrap:wrap; gap:14px; }
+.service-row + .service-row { margin-top:16px; padding-top:16px;
+  border-top:1px dashed var(--border); }
+.service-role { font-weight:800; color:var(--text); font-size:15.5px; }
+.service-tags { display:flex; flex-wrap:wrap; gap:8px; }
+.service-tag {
+  padding:5px 14px; border-radius:var(--radius-pill); font-size:13px; font-weight:800;
+  letter-spacing:.02em; color:#fff9e3; background:var(--primary);
+  box-shadow:0 3px 0 0 #0e9a8f; transition:all .2s var(--ease);
+}
+.service-tag:hover { transform:translateY(-1px); box-shadow:0 4px 0 0 #0e9a8f; }
+
 /* ------------------------------- Contact --------------------------------- */
 .contact-card { text-align:center; }
 .contact-card p { font-size:15px; line-height:1.7; margin:0 0 20px; }
