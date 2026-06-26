@@ -78,9 +78,9 @@ const PUBLICATIONS = [
   {
     title:   'Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn LLM Agents',
     authors: 'Guoqing Wang, Sunhao Dai, Guangze Ye, Zeyu Gan, Wei Yao, Yong Deng, Xiaofeng Wu, Zhenzhe Ying',
-    venue:   'arXiv 2025',
-    type:    'preprint',
-    year:    2025,
+    venue:   'ICLR 2026',
+    type:    'conference',
+    year:    2026,
     excerpt: 'IGPO: a simple yet effective RL framework giving dense, intrinsic supervision for multi-turn agent training.',
     url:     'https://arxiv.org/abs/2510.14967',
   },
@@ -137,6 +137,7 @@ const PUBLICATIONS = [
  * --------------------------------------------------------------------------- */
 const NEWS = [
   { date: 'Jun 2026', text: 'New preprint <em>"Local Harness"</em> on personal-agent architectures is out on arXiv.' },
+  { date: 'Jan 2026', text: 'Our paper <em>IGPO</em> on multi-turn LLM agents was accepted to <strong>ICLR 2026</strong>! 🎉' },
   { date: 'Jan 2026', text: 'Released our survey <em>"Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs"</em>.' },
   { date: 'Oct 2025', text: 'Preprint <em>IGPO</em> on multi-turn LLM agents is available.' },
   { date: 'Sep 2025', text: 'Preprint <em>CoT-Space</em> on chain-of-thought reasoning is available.' },
