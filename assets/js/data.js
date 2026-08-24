@@ -60,8 +60,8 @@ const PUBLICATIONS = [
   {
     title:   'Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents',
     authors: 'Zeyu Gan, Huayi Tang, Yong Liu',
-    venue:   'arXiv 2026',
-    type:    'preprint',
+    venue:   'EMNLP 2026 (Findings)',
+    type:    'conference',
     year:    2026,
     excerpt: 'A decoupled "Local Harness" architecture for personal agents that isolates lightweight statistical preference learning from remote LLM semantic parsing.',
     url:     'https://arxiv.org/abs/2606.05828',
@@ -144,6 +144,7 @@ const PUBLICATIONS = [
  *  please edit dates / wording to match real events.
  * --------------------------------------------------------------------------- */
 const NEWS = [
+  { date: 'Aug 2026', text: 'Our <em>"Local Harness"</em> paper was accepted to <strong>Findings of EMNLP 2026</strong>! 🎉.' },
   { date: 'Jun 2026', text: 'New preprint <em>"Local Harness"</em> on personal-agent architectures is out on arXiv.' },
   { date: 'Jan 2026', text: 'Our paper <em>IGPO</em> on multi-turn LLM agents was accepted to <strong>ICLR 2026</strong>! 🎉' },
   { date: 'Jan 2026', text: 'Released our survey <em>"Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs"</em>.' },
@@ -170,5 +171,6 @@ const EDUCATION = [
  *  Each entry: a role and the venues it applies to (shown as colored pills).
  * --------------------------------------------------------------------------- */
 const SERVICE = [
-  { role: 'Conference Reviewer', venues: ['ICLR', 'ICML', 'CVPR'] },
+  { role: 'Conference Reviewer', venues: ['ICLR', 'ICML', 'CVPR', 'AAAI'] },
+  { role: 'Award', venues: ['Golden Reviewer of ICML 2026'] },
 ];
