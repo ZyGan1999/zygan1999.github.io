@@ -172,5 +172,5 @@ const EDUCATION = [
  * --------------------------------------------------------------------------- */
 const SERVICE = [
   { role: 'Conference Reviewer', venues: ['ICLR', 'ICML', 'CVPR', 'AAAI'] },
-  { role: 'Award', venues: ['Golden Reviewer of ICML 2026'] },
+  { role: 'Award', venues: ['Gold Reviewer of ICML 2026'] },
 ];
