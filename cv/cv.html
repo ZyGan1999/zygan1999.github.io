@@ -83,6 +83,8 @@
   }
 
   /* tag pills for service / interests */
+  .service-entries { display: flex; gap: 28px; align-items: flex-start; }
+  .service-entries .entry { margin-bottom: 0; break-inside: avoid; }
   .pills { display: flex; flex-wrap: wrap; gap: 6px; }
   .pill {
     font-family: "Helvetica Neue", Arial, sans-serif; font-size: 8.5pt; font-weight: 700;
@@ -142,10 +144,10 @@
     <ol class="pubs">
       <li><span class="me">Zeyu Gan</span>, Huayi Tang, Yong Liu.
         <a href="https://arxiv.org/abs/2606.05828">Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents</a>.
-        <span class="venue">arXiv:2606.05828</span>, 2026.</li>
+        <span class="venue">Findings of the Association for Computational Linguistics: EMNLP</span>, 2026. <span class="badge">EMNLP 2026 (Findings)</span></li>
 
       <li><span class="me">Zeyu Gan</span>, Ruifeng Ren, Wei Yao, Xiaolin Hu, Gengze Xu, Chen Qian, Huayi Tang, Zixuan Gong, Xinhao Yao, Pengwei Tang, Zhenxing Dou, Yong Liu.
-        <a href="https://arxiv.org/abs/2601.02907">Beyond the Black Box: A Survey on the Theory and Mechanism of Large Language Models</a>.
+        <a href="https://arxiv.org/abs/2601.02907">Beyond the Black Box: A Survey on the Theory and Mechanism of LLMs</a>.
         <span class="venue">arXiv:2601.02907</span>, 2026.</li>
 
       <li>Guoqing Wang, Sunhao Dai, Guangze Ye, <span class="me">Zeyu Gan</span>, Wei Yao, Yong Deng, Xiaofeng Wu, Zhenzhe Ying.
@@ -194,11 +196,19 @@
 
   <section>
     <h2>Academic Service</h2>
+    <div class="service-entries">
     <div class="entry">
       <div class="row"><span class="lead">Conference Reviewer</span></div>
       <div class="pills" style="margin-top:5px">
-        <span class="pill">ICLR</span><span class="pill">ICML</span><span class="pill">CVPR</span>
+        <span class="pill">ICLR</span><span class="pill">ICML</span><span class="pill">CVPR</span><span class="pill">AAAI</span>
       </div>
+    </div>
+    <div class="entry">
+      <div class="row"><span class="lead">Award</span></div>
+      <div class="pills" style="margin-top:5px">
+        <span class="pill">Gold Reviewer of ICML 2026</span>
+      </div>
+    </div>
     </div>
   </section>
 
