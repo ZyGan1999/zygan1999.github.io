@@ -58,6 +58,26 @@ const RESEARCH = [
  * --------------------------------------------------------------------------- */
 const PUBLICATIONS = [
   {
+    title:   'Harness Evolution as Learning: Approximation, Generalization, and Optimization Limits of Self-Improving Personal Agents',
+    authors: 'Zeyu Gan, Zixuan Gong, Yong Liu',
+    venue:   'arXiv 2026',
+    type:    'preprint',
+    year:    2026,
+    excerpt: 'Studies how harness architecture, scale, and self-evolution shape personal-agent adaptation through approximation, generalization, and optimization errors.',
+    url:     'https://arxiv.org/abs/2609.36892',
+    fig:     'assets/img/pubs/harness-evolution.png',
+  },
+  {
+    title:   'Normalize-Then-Precondition: A Hierarchical Approach to Marginal Scale and Interaction Geometry for LLM Training',
+    authors: 'Zixuan Gong, Zeyu Gan, Jiaye Teng, Yong Liu',
+    venue:   'arXiv 2026',
+    type:    'preprint',
+    year:    2026,
+    excerpt: 'Introduces NormPre, a family of matrix optimizers that normalize marginal scales before applying global or localized spectral preconditioning for LLM training.',
+    url:     'https://arxiv.org/abs/2609.36692',
+    fig:     'assets/img/pubs/normpre.png',
+  },
+  {
     title:   'Statistical Priors for Implicit Preferences: Decoupling Skill Selection as a Local Harness in Personal Agents',
     authors: 'Zeyu Gan, Huayi Tang, Yong Liu',
     venue:   'EMNLP 2026 (Findings)',
@@ -144,6 +164,8 @@ const PUBLICATIONS = [
  *  please edit dates / wording to match real events.
  * --------------------------------------------------------------------------- */
 const NEWS = [
+  { date: 'Sep 2026', text: 'New preprint <em>"Harness Evolution as Learning"</em> on the limits of self-improving personal agents is out on arXiv.' },
+  { date: 'Sep 2026', text: 'New preprint <em>"Normalize-Then-Precondition"</em> on matrix optimizers for LLM training is out on arXiv.' },
   { date: 'Aug 2026', text: 'Our <em>"Local Harness"</em> paper was accepted to <strong>Findings of EMNLP 2026</strong>! 🎉.' },
   { date: 'Jun 2026', text: 'New preprint <em>"Local Harness"</em> on personal-agent architectures is out on arXiv.' },
   { date: 'Jan 2026', text: 'Our paper <em>IGPO</em> on multi-turn LLM agents was accepted to <strong>ICLR 2026</strong>! 🎉' },
