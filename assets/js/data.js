@@ -20,7 +20,7 @@ const PROFILE = {
   email:       'zygan@ruc.edu.cn',
   github:      'ZyGan1999',
   scholar:     'https://scholar.google.com/citations?user=aoVm7R0AAAAJ&hl=zh-CN&oi=sra',
-  avatar:      'assets/img/avatar.jpg',
+  avatar:      'assets/img/profile.jpg',
   cv:          'assets/ZeyuGan.pdf',
   // One-line tagline shown in the hero (副标题一句话)
   tagline:     'I study the mechanisms and theory behind Large Language Models.',
